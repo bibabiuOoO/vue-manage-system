@@ -5,7 +5,7 @@ let List = []
 export default {
     getStatisticalData: () => {
         //Mock.Random.float 产生随机数100到8000之间 保留小数 最小0位 最大0位
-        // 用于orderData当中动态生成list数据
+        // 用于orderData当中动态生成list数据用于折线图
         for (let i = 0; i < 7; i++) {
             List.push(
                 Mock.mock({

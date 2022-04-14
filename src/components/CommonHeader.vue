@@ -34,11 +34,11 @@ import { mapState } from 'vuex'
         },
         methods: {
             handleMenu() {
-                this.$store.commit('Tab/isCollapseMenu')
+                this.$store.commit('tab/isCollapseMenu')
             }
         },
         computed: {
-            ...mapState('Tab',['tabList'])
+            ...mapState('tab',['tabList'])
         }
     }
 </script>

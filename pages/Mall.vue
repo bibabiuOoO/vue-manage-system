@@ -4,7 +4,12 @@
 
 <script>
 export default {
-
+name:'Mall',
+data() {
+  return {
+    
+  }
+},
 }
 </script>
 

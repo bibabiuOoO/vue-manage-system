@@ -42,11 +42,11 @@
                         })
                     }
                 }
-                this.$store.commit('Tab/deleteTag', index)
+                this.$store.commit('tab/deleteTag', index)
             }
         },
         computed: {
-            ...mapState('Tab', ['tabList'])
+            ...mapState('tab', ['tabList'])
         }
     }
 </script>
